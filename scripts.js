@@ -48,3 +48,6 @@ background.addEventListener('click', () => {
     console.log(background.style.animation )
     playSong()
 })
+
+
+window.onload = playSong()
